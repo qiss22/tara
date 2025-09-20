@@ -1,0 +1,22 @@
+[package]
+name = "web-service"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+taracol-types = { path = "../../core/taracol-types" }
+taracol-crypto = { path = "../../core/taracol-crypto" }
+taracol-protocol = { path = "../../core/taracol-protocol" }
+tonic.workspace = true
+prost.workspace = true
+tokio.workspace = true
+sqlx.workspace = true
+serde.workspace = true
+anyhow.workspace = true
+tracing.workspace = true
+uuid.workspace = true
+config.workspace = true
+
+[build-dependencies]
+tonic-build = "0.10"

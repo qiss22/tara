@@ -1,0 +1,16 @@
+{
+  "name": "taracol-workspace",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "tara-client/*"
+  ],
+  "scripts": {
+    "build": "./scripts/build.sh",
+    "dev": "./scripts/setup-dev.sh",
+    "test": "cargo test && npm run test --workspaces"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "@tara/api",
+  "version": "0.1.0",
+  "description": "TypeScript client library for Taracol protocol",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "generate": "node scripts/generate-from-lexicons.js"
+  },
+  "keywords": [
+    "taracol",
+    "tarantula",
+    "decentralized",
+    "social"
+  ],
+  "license": "PROPRIETARY",
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.0.0"
+  }
+}

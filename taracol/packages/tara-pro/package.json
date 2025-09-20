@@ -1,0 +1,11 @@
+{
+  "name": "@tara/pro",
+  "version": "0.1.0",
+  "description": "Premium features SDK for Taracol",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "PROPRIETARY",
+  "dependencies": {
+    "@tara/api": "workspace:*"
+  }
+}

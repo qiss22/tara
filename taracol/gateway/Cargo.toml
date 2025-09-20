@@ -1,0 +1,17 @@
+[package]
+name = "gateway"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+taracol-types = { path = "../core/taracol-types" }
+axum.workspace = true
+tokio.workspace = true
+tonic.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+anyhow.workspace = true
+tracing.workspace = true
+tower = "0.4"
+tower-http = { version = "0.4", features = ["cors"] }
